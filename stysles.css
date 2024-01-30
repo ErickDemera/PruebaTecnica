@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+#form-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form button {
+    margin: 5px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.big-button {
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    height: 50px; /* Ajusta la altura según sea necesario */
+    font-size: 18px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+button:hover {
+    background-color: #00796B;
+    color: #FFFFFF;
+}
+
+#attendance-list {
+    margin-bottom: 20px;
+}
+
+#attendance-ul {
+    list-style: none;
+    padding: 0;
+}
+
+#attendance-ul li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #F0F0F0;
+    border-radius: 4px;
+}
+
+#report-container {
+    text-align: center;
+}
+
+#generate-report-btn {
+    background-color: #FF5722;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generate-report-btn:hover {
+    background-color: #E64A19;
+}

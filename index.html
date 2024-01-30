@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Asistencias</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="stysles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Asistencias</h1>
+        <div id="form-container">
+            <h2>Registrar Asistencia</h2>
+            <form id="attendance-form">
+                <label for="employee-name">Nombre del Empleado:</label>
+                <input type="text" id="employee-name" name="employee_name" required>
+                
+                <div class="action-buttons">
+                    <button type="button" id="clock-in-btn" class="big-button">Entrada</button>
+                    <button type="button" id="clock-out-btn" class="big-button">Salida</button>
+                </div>
+            </form>
+        <div id="attendance-list">
+            <h2>Lista de Asistencia del Día</h2>
+            <ul id="attendance-ul"></ul>
+        </div>
+        <div id="report-container">
+            <h2>Generar Reporte Semanal</h2>
+            <button id="generate-report-btn">Generar Reporte</button>
+        </div>
+        <div id="report-container">
+            <h2>Generar Reporte de Asistencia</h2>
+            <a href="generate_report.php" target="_blank" id="generate-report-btn">Generar Reporte</a>
+        </div>
+        
+    </div>
+</body>
+</html>
